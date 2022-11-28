@@ -1,0 +1,82 @@
+body {
+    overflow-x: hidden;
+}
+.dis{
+    text-shadow: 3PX 3PX black;
+    font-size: 2.5rem;
+}
+@media only screen and (max-width: 700px) {
+    .dis {
+        font-size: 25px;
+        position: relative;
+        bottom: -30px;
+        margin-left: 25%;
+        text-shadow: 2PX 2PX black;
+    }
+}
+
+.caption {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+.bg{
+    background-color:#F0F0F0;
+}
+
+.link-horizontal ul {
+    display: flex
+}
+
+.link-horizontal ul li {
+    padding-right: 35px
+}
+
+.link-horizontal ul li.borders-right {
+    border-right: 1px solid #fff;
+    height: 52px;
+    margin-right: 35px;
+    -webkit-box-shadow: 0 0 10px 0 white;
+    box-shadow: 0 0 10px 0 white;
+    opacity: 0.7
+}
+
+.link-horizontal ul li:last-child {
+    padding-right: 0
+}
+
+.link-horizontal ul li a {
+    background-color: transparent
+}
+.link-horizontal ul li a.icon-btn:hover i {
+    color: black;
+    background-position: 0 -90px
+}
+
+.social-link {
+    color: black;
+    font-size: 22px
+}
+.go{
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color:black;
+}
+.go:hover{
+    color: white;
+}
